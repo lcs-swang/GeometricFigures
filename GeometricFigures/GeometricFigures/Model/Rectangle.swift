@@ -11,7 +11,7 @@ import Foundation
 // Define the structure
 struct Rectangle {
     // MARK: Stored properties
-    let length: Double
+    var length: Double
     let width: Double
 
     // MARK: Computed properties

@@ -21,14 +21,21 @@ struct RectangleView: View {
             //Label (describe what the slider is for)
             Text ("Length")
             
+            //1.INPUT
+            // Slider control-to allow for user input
             Slider(value: $currentRectangle.length, in: 1...100, step: 0.1)
             
             Text ("Width")
             
-            // Slider control-to allow for user input
-            
+            //3.OUTPUT
             //Label(show the current slider value)
             Text("Length is:\(currentRectangle.length.formatted()) ")
+            
+            //Label(show the perimeter)
+            Text("Perimeter is:\(currentRectangle.perimeter.formatted()) ")
+            
+            //Label(show the area)
+            Text("Area is:\(currentRectangle.area.formatted()) ")
         }
     }
 }

@@ -15,6 +15,7 @@ struct Rectangle {
     let width: Double
 
     // MARK: Computed properties
+    //2.PROCESS
     var area: Double {
         return length * width
     }

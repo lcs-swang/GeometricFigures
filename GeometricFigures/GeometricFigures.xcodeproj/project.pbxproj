@@ -6,20 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DE5105482CD03A63007F5D93 /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5105472CD03A63007F5D93 /* GeometricFiguresApp.swift */; };
+		DE5105592CD136C7007F5D93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5105552CD136C7007F5D93 /* Preview Assets.xcassets */; };
+		DE51055A2CD136C7007F5D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5105572CD136C7007F5D93 /* Assets.xcassets */; };
+		DE51055D2CD1379F007F5D93 /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51055C2CD1379F007F5D93 /* RectangleView.swift */; };
+		DE5105602CD1387B007F5D93 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE51055F2CD1387B007F5D93 /* Rectangle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		DE5105292CD036A7007F5D93 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5105442CD03A63007F5D93 /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE5105472CD03A63007F5D93 /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		DE5105552CD136C7007F5D93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE5105572CD136C7007F5D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE51055C2CD1379F007F5D93 /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		DE51055F2CD1387B007F5D93 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		DE51052B2CD036A7007F5D93 /* GeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
-		DE5105262CD036A6007F5D93 /* Frameworks */ = {
+		DE5105412CD03A63007F5D93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,103 +34,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DE5105202CD036A6007F5D93 = {
+		DE51053B2CD03A63007F5D93 = {
 			isa = PBXGroup;
 			children = (
-				DE51052B2CD036A7007F5D93 /* GeometricFigures */,
-				DE51052A2CD036A7007F5D93 /* Products */,
+				DE5105472CD03A63007F5D93 /* GeometricFiguresApp.swift */,
+				DE5105582CD136C7007F5D93 /* GeometricFigures */,
+				DE5105452CD03A63007F5D93 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DE51052A2CD036A7007F5D93 /* Products */ = {
+		DE5105452CD03A63007F5D93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE5105292CD036A7007F5D93 /* GeometricFigures.app */,
+				DE5105442CD03A63007F5D93 /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DE5105562CD136C7007F5D93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DE5105552CD136C7007F5D93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DE5105582CD136C7007F5D93 /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				DE51055E2CD1385A007F5D93 /* Model */,
+				DE51055B2CD13755007F5D93 /* Views */,
+				DE5105562CD136C7007F5D93 /* Preview Content */,
+				DE5105572CD136C7007F5D93 /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
+			sourceTree = "<group>";
+		};
+		DE51055B2CD13755007F5D93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DE51055C2CD1379F007F5D93 /* RectangleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DE51055E2CD1385A007F5D93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE51055F2CD1387B007F5D93 /* Rectangle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE5105282CD036A6007F5D93 /* GeometricFigures */ = {
+		DE5105432CD03A63007F5D93 /* GeometricFigures */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE5105372CD036A9007F5D93 /* Build configuration list for PBXNativeTarget "GeometricFigures" */;
+			buildConfigurationList = DE5105522CD03A65007F5D93 /* Build configuration list for PBXNativeTarget "GeometricFigures" */;
 			buildPhases = (
-				DE5105252CD036A6007F5D93 /* Sources */,
-				DE5105262CD036A6007F5D93 /* Frameworks */,
-				DE5105272CD036A6007F5D93 /* Resources */,
+				DE5105402CD03A63007F5D93 /* Sources */,
+				DE5105412CD03A63007F5D93 /* Frameworks */,
+				DE5105422CD03A63007F5D93 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				DE51052B2CD036A7007F5D93 /* GeometricFigures */,
-			);
 			name = GeometricFigures;
 			packageProductDependencies = (
 			);
 			productName = GeometricFigures;
-			productReference = DE5105292CD036A7007F5D93 /* GeometricFigures.app */;
+			productReference = DE5105442CD03A63007F5D93 /* GeometricFigures.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DE5105212CD036A6007F5D93 /* Project object */ = {
+		DE51053C2CD03A63007F5D93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					DE5105282CD036A6007F5D93 = {
+					DE5105432CD03A63007F5D93 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = DE5105242CD036A6007F5D93 /* Build configuration list for PBXProject "GeometricFigures" */;
+			buildConfigurationList = DE51053F2CD03A63007F5D93 /* Build configuration list for PBXProject "GeometricFigures" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = DE5105202CD036A6007F5D93;
+			mainGroup = DE51053B2CD03A63007F5D93;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = DE51052A2CD036A7007F5D93 /* Products */;
+			productRefGroup = DE5105452CD03A63007F5D93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE5105282CD036A6007F5D93 /* GeometricFigures */,
+				DE5105432CD03A63007F5D93 /* GeometricFigures */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE5105272CD036A6007F5D93 /* Resources */ = {
+		DE5105422CD03A63007F5D93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5105592CD136C7007F5D93 /* Preview Assets.xcassets in Resources */,
+				DE51055A2CD136C7007F5D93 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DE5105252CD036A6007F5D93 /* Sources */ = {
+		DE5105402CD03A63007F5D93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE51055D2CD1379F007F5D93 /* RectangleView.swift in Sources */,
+				DE5105602CD1387B007F5D93 /* Rectangle.swift in Sources */,
+				DE5105482CD03A63007F5D93 /* GeometricFiguresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DE5105352CD036A9007F5D93 /* Debug */ = {
+		DE5105502CD03A65007F5D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +231,7 @@
 			};
 			name = Debug;
 		};
-		DE5105362CD036A9007F5D93 /* Release */ = {
+		DE5105512CD03A65007F5D93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +287,7 @@
 			};
 			name = Release;
 		};
-		DE5105382CD036A9007F5D93 /* Debug */ = {
+		DE5105532CD03A65007F5D93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -273,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		DE5105392CD036A9007F5D93 /* Release */ = {
+		DE5105542CD03A65007F5D93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -305,25 +348,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE5105242CD036A6007F5D93 /* Build configuration list for PBXProject "GeometricFigures" */ = {
+		DE51053F2CD03A63007F5D93 /* Build configuration list for PBXProject "GeometricFigures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5105352CD036A9007F5D93 /* Debug */,
-				DE5105362CD036A9007F5D93 /* Release */,
+				DE5105502CD03A65007F5D93 /* Debug */,
+				DE5105512CD03A65007F5D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE5105372CD036A9007F5D93 /* Build configuration list for PBXNativeTarget "GeometricFigures" */ = {
+		DE5105522CD03A65007F5D93 /* Build configuration list for PBXNativeTarget "GeometricFigures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DE5105382CD036A9007F5D93 /* Debug */,
-				DE5105392CD036A9007F5D93 /* Release */,
+				DE5105532CD03A65007F5D93 /* Debug */,
+				DE5105542CD03A65007F5D93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DE5105212CD036A6007F5D93 /* Project object */;
+	rootObject = DE51053C2CD03A63007F5D93 /* Project object */;
 }

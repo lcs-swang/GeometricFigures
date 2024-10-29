@@ -1,0 +1,31 @@
+//
+//  Cricle.swift
+//  GeometricFigures
+//
+//  Created by Susie Wang on 2024-10-29.
+//
+
+import Foundation
+
+
+// Define the structure
+struct Rectangle {
+    // MARK: Stored properties
+    let length: Double
+    let width: Double
+
+    // MARK: Computed properties
+    var area: Double {
+        return length * width
+    }
+
+    // Computed property for the perimeter
+    var perimeter: Double {
+        return 2 * (
+            length + width
+        )
+    }
+}
+
+
+
